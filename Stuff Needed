@@ -1,0 +1,37 @@
+Outputs: (8255)
+
+Buzzer (4 different sounds)
+Agitator
+Revolving Tub
+
+Inputs:
+
+Start
+Stop
+Resume
+Load
+
+
+8253 (Timer)
+
+Need cycles of 2,3,4,5
+So 2 8253s needed
+
+
+8259-When to use?
+
+Buzzer Sounds
+
+
+Questions:
+
+Door locking- How do you come to know? and what about Alarm?
+How to identify number of presses of Load button?
+Different Buzzer sounds?
+Use of Agitator and Revolving tub?
+How to check water level? 
+Water in and water out-relays how to operate? 
+
+
+
+
