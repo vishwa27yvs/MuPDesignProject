@@ -1,0 +1,13 @@
+Logic
+For start we shall use polling
+For load count also we should use polling (consider debounce delay)
+For stop -use interrupt
+For reset also we have to use polling.
+For water level (8255) use polling, check out water level sensors(ADC reqd?).
+Figure out relay and how will we know that reqd water level has reached?
+Depending on load count start a particular subroutine
+Depending on the cycle and time, load a count, something like mode 0, so the output remains high for that much time(eg: 120s therefore load 120)
+The out signal of the counters should be given to different buffers,(edge triggered, high to low when the count is over) (look for edge triggered buffers).
+The out signal of counter goes to the agitator.Read chp:10 from text book for motor interfacing
+In the ISR of stop interrupt, write 0 to gate signal of all counters (all other enable signals)
+
